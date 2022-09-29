@@ -1,0 +1,67 @@
+---
+title: "Quarterly Water Quality Surveys - Salton Sea [ds429]"
+output: html_document
+author: Wolfgang Horner
+date: "2022-09-22"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Quarterly Water Quality Surveys - Salton Sea [ds429]
+
+## Description
+
+Data about the Salton sea
+
+### Purpose :
+
+To measure different variables about the water
+
+### Details :
+
+The study measured the temperature, the amount of salt, and the oxygen at particular specfied locations.
+
+## Format
+
+X : X coordinates on a map
+
+Y : Y coordinates on a map
+
+OBJECTID : List for organization, number corresponds to a location
+
+DATE : Exact time of recorded values
+
+SITE : Location of recorded values
+
+PROBE : Type of device used in recording values
+
+TEMP_C : Temperature of water in Celsius
+
+CONDUCTIVI : Conductivity of water using Salinity = 0.013(SC2) - 0.233(SC) + 17.102
+
+SP_CONDUCT : Specific conductivity of water using Salinity = 0.013(SC2) - 0.233(SC) + 17.102
+
+SALINITY : Amount of salt within the water
+
+DISS_OXOYGEN : Amount of low pressure gas, in this case oxygen
+
+COMMENTS : Deeper details about what happened during finding data
+
+UTM_E : Universal Transverse Mercator latitude
+
+UTM_N : Universal Transverse Mercator longitude
+
+Date: September 16, 2022
+
+### Source : <https://data.cnra.ca.gov/dataset/quarterly-water-quality-surveys-salton-sea-ds429>
+
+### Recorded by : California Natural Resource Agency and California-department-of-fish-and-wildlife
+
+### 
+git config user.email "wolfgang_horner@clarke.edu"
+git config user.name "Wolfgangus-H"
+git config remote.origin.url "https://github.com/matsonah/ClarkeStatsFall2022.git" 
+git config branch.main.remote "origin"
+git config branch.main.merge "refs/heads/main"
